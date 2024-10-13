@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+video, audio, .lionel_messi1, .lionel_messi2 {
+    width: 100%;
+    max-width: 340px;
+    margin: 10px auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .information {
+        font-size: 0.9rem;
+    }
+
+    video, audio, .lionel_messi1, .lionel_messi2 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .information {
+        font-size: 0.8rem;
+    }
+
+    video, audio, .lionel_messi1, .lionel_messi2 {
+        max-width: 100%;
+    }
+}
